@@ -18,26 +18,26 @@
 <body class="page">
     <!-- Навігація -->
     <header class="header">
-        <div class="container header-container">
-            <a class="logo-header link" lang="en" href="/">Web<span class="logo-part">Studio</span></a>
+        <div class="container header__container">
+            <a class="logo link" lang="en" href="/">Web<span class="logo__dark">Studio</span></a>
             <nav class="nav">
-                <ul class="header-list">
-                    <li class="header-item"><a class="nav-link link current" href="">Студія</a></li>
-                    <li class="header-item"><a class="nav-link link " href="./portfolio.html">Портфоліо</a></li>
-                    <li class="header-item"><a class="nav-link link" href="">Контакти</a></li>
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link link nav__link--current" href="">Студія</a></li>
+                    <li class="nav__item"><a class="nav__link link " href="./portfolio.html">Портфоліо</a></li>
+                    <li class="nav__item"><a class="nav__link link" href="">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="contacts-list">
-                <li class="contacts-list-item"><a class="contacts-header-link link" href="mailto:info@devstudio.com">
-                        <svg class="contacts-icon" width="16" height="12">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link link" href="mailto:info@devstudio.com">
+                        <svg class="header__icon" width="16" height="12">
                             <use href="./images/icons/icons.svg#icon-envelope">
 
                             </use>
                         </svg>info@devstudio.com
                     </a>
                 </li>
-                <li class="contacts-list-item"><a class="contacts-header-link link" href="tel:+380961111111">
-                        <svg class="contacts-icon" width="10" height="16">
+                <li class="header__item"><a class="header__link link" href="tel:+380961111111">
+                        <svg class="header__icon" width="10" height="16">
                             <use href="./images/icons/icons.svg#icon-smartphone">
 
                             </use>
@@ -50,54 +50,54 @@
     <main>
         <!-- Герой -->
         <section class="hero">
-            <div class="container hero-container">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+            <div class="container hero__container">
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero__btn" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <!-- Наші переваги -->
-        <section class="hero-section">
+        <section class="aside">
             <div class="container">
-                <h2 class="section-title visually-hidden">Наші плюси</h2>
-                <ul class="hero-list">
-                    <li class="hero-item">
-                        <div class="about-us">
-                            <svg class="icon about" width="70" height="70">
+                <h2 class="aside__title visually-hidden">Наші плюси</h2>
+                <ul class="aside__list">
+                    <li class="aside__item">
+                        <div class="aside__img">
+                            <svg class="aside__icon" width="70" height="70">
                                 <use href="./images/icons/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="hero-caption">Увага до деталей</h3>
-                        <p class="hero-subtitle">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                        <h3 class="aside__caption">Увага до деталей</h3>
+                        <p class="aside__subtitle">Ідейні міркування, і навіть початок повсякденної роботи з формування
                             позиції.</p>
                     </li>
-                    <li class="hero-item">
-                        <div class="about-us">
-                            <svg class="icon about" width="70" height="70">
+                    <li class="aside__item">
+                        <div class="aside__img">
+                            <svg class="aside__icon" width="70" height="70">
                                 <use href="./images/icons/icons.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="hero-caption">Пунктуальність</h3>
-                        <p class="hero-subtitle">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+                        <h3 class="aside__caption">Пунктуальність</h3>
+                        <p class="aside__subtitle">Завдання організації, особливо рамки і місце навчання кадрів тягне у
                             себе.
                         </p>
                     </li>
-                    <li class="hero-item">
-                        <div class="about-us">
-                            <svg class="icon about" width="70" height="70">
+                    <li class="aside__item">
+                        <div class="aside__img">
+                            <svg class="aside__icon" width="70" height="70">
                                 <use href="./images/icons/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="hero-caption">Планування</h3>
-                        <p class="hero-subtitle">Так само консультація з широким активом значною мірою зумовлює.</p>
+                        <h3 class="aside__caption">Планування</h3>
+                        <p class="aside__subtitle">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
-                    <li class="hero-item">
-                        <div class="about-us">
-                            <svg class="icon about" width="70" height="70">
+                    <li class="aside__item">
+                        <div class="aside__img">
+                            <svg class="aside__icon" width="70" height="70">
                                 <use href="./images/icons/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="hero-caption">Сучасні технології</h3>
-                        <p class="hero-subtitle">Значимість цих проблем настільки очевидна, що реалізація планових
+                        <h3 class="aside__caption">Сучасні технології</h3>
+                        <p class="aside__subtitle">Значимість цих проблем настільки очевидна, що реалізація планових
                             завдань.
                         </p>
                     </li>
@@ -105,28 +105,28 @@
             </div>
         </section>
         <!-- Наша робота -->
-        <section class="content">
+        <section class="preview">
             <div class="container">
-                <h2 class="content-title">Чим ми займаємося</h2>
-                <ul class="content-list">
-                    <li class="content-item">
+                <h2 class="preview__title">Чим ми займаємося</h2>
+                <ul class="preview__list">
+                    <li class="preview__item">
                         <img class="img" src="./images/logo1.jpg" alt="робота за ноутбуком" width=370>
-                        <div class="overlay-work">
-                            <h3 class="overlay-name">Десктопні додатки</h3>
+                        <div class="preview__overlay">
+                            <h3 class="preview__name">Десктопні додатки</h3>
 
                         </div>
                     </li>
-                    <li class="content-item">
+                    <li class="preview__item">
                         <img class="img" src="./images/logo2.jpg" alt="робота в телефоні" width=370>
-                        <div class="overlay-work">
-                            <h3 class="overlay-name">Мобільні додатки</h3>
+                        <div class="preview__overlay">
+                            <h3 class="preview__name">Мобільні додатки</h3>
 
                         </div>
                     </li>
-                    <li class="content-item">
+                    <li class="preview__item">
                         <img class="img" src="./images/logo3.jpg" alt="робота в планшеті" width=370>
-                        <div class="overlay-work">
-                            <h3 class="overlay-name">Дизайнерські рішення</h3>
+                        <div class="preview__overlay">
+                            <h3 class="preview__name">Дизайнерські рішення</h3>
 
                         </div>
                     </li>
